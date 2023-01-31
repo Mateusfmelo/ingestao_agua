@@ -7,7 +7,7 @@ function verificar() {
         res.innerHTML = ('Valor não aceito!')
     } else {
         peso = (cap.value * 0.35 / 10).toFixed(2).replace(".", ",")
-        res.innerHTML = `Você tem que ingerir um total de ${peso} litro(s) de água por dia!`
+        res.innerHTML = `Seu consumo ideal é ${peso} litro(s) de água por dia!`
     }
     res.style.textAlign = 'center'
 }
