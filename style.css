@@ -8,7 +8,6 @@
 }
 
 body {
-    font-family: 'Roboto Condensed', 'Times New Roman', Times, serif;
     background-color: black;
 }
 
@@ -19,9 +18,8 @@ header {
     text-align: center;
 }
 
-#botao {
-    margin-top: 15px;
-    margin-bottom: 15px;
+.botao {
+    margin: 20px 20px;
     font-size: 0.5em;
     background-color: black;
     color: white;
@@ -31,9 +29,11 @@ header {
 }
 
 section {
+    font-family: 'Roboto Condensed', 'Times New Roman', Times, serif;
     text-align: center;
     background: white;
     border-radius: 10px;
+    font-size: 20px;
     padding: 20px;
     width: 500px;
     margin: auto;
