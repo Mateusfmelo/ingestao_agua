@@ -1,39 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-image: linear-gradient(to right, #04A9C9, #67C9CE);
-    font: 15pt Times, serif, serif;;
+    font-family: 'Roboto Condensed', 'Times New Roman', Times, serif;
+    background-color: black;
 }
 
 header {
-    font-family: Times, serif, serif;
-    color: black;
+    padding: 20px;
+    font-family: 'Bebas Neue', 'Times New Roman', Times, serif;
+    color: white;
     text-align: center;
+}
+
+#botao {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 0.5em;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 15px;
 }
 
 section {
+    text-align: center;
     background: white;
     border-radius: 10px;
-    padding: 15px;
-    width: 400px;
+    padding: 20px;
+    width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
-}
-
-img {
-    height: 40px;
-    width: 40px;
-}
-
-footer {
-    color: white;
-    text-align: center;
-    font-style: italic;
 }
 
 /*Adaptabilidade*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
     section {
         text-align: center;
         width: 285px;
-        padding-left: 0;
     }
 }
